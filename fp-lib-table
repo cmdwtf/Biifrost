@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name E-Switch)(type KiCad)(uri ${KIPRJMOD}/E-Switch.pretty)(options "")(descr ""))
+  (lib (name Pitaya_Go)(type KiCad)(uri ${KIPRJMOD}/Pitaya_Go.pretty)(options "")(descr ""))
+  (lib (name Biifröst)(type KiCad)(uri ${KIPRJMOD}/Biifröst.pretty)(options "")(descr ""))
+)
