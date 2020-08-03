@@ -1,5 +1,5 @@
 (fp_lib_table
-  (lib (name E-Switch)(type KiCad)(uri ${KIPRJMOD}/E-Switch.pretty)(options "")(descr ""))
-  (lib (name Pitaya_Go)(type KiCad)(uri ${KIPRJMOD}/Pitaya_Go.pretty)(options "")(descr ""))
-  (lib (name Biifröst)(type KiCad)(uri ${KIPRJMOD}/Biifröst.pretty)(options "")(descr ""))
+  (lib (name E-Switch)(type KiCad)(uri ${KIPRJMOD}/E-Switch.pretty)(options "")(descr "Custom E-Switch switches for the Biifröst project"))
+  (lib (name Pitaya_Go)(type KiCad)(uri ${KIPRJMOD}/Pitaya_Go.pretty)(options "")(descr "Footprint for placing the 14-pin headers from the Pitaya Go device"))
+  (lib (name Biifröst)(type KiCad)(uri ${KIPRJMOD}/Biifröst.pretty)(options "")(descr "Logos and Wordmarks for Biifröst"))
 )
