@@ -259,7 +259,7 @@ Wire Wire Line
 Text Label 4150 3050 0    50   ~ 0
 GND
 Text Label 3350 2950 0    50   ~ 0
-SD_CS
+~SD_CS~
 Text Label 3350 3050 0    50   ~ 0
 SD_MOSI
 Text Label 3350 3150 0    50   ~ 0
@@ -267,7 +267,7 @@ SD_MISO
 Text Label 3350 3250 0    50   ~ 0
 SD_SCK
 Text Label 2600 3350 0    50   ~ 0
-ALT_CS
+~ALT_CS~
 Text Label 3150 3700 0    50   ~ 0
 LCD_MISO
 Text Label 3150 3800 0    50   ~ 0
@@ -277,11 +277,11 @@ LCD_SCK
 Text Label 3150 4000 0    50   ~ 0
 LCD_MOSI
 Text Label 3150 4100 0    50   ~ 0
-LCD_DC
+LCD_D~C~
 Text Label 3150 4200 0    50   ~ 0
-LCD_RST
+~LCD_RST~
 Text Label 3150 4300 0    50   ~ 0
-LCD_CS
+~LCD_CS~
 Text Label 3150 4400 0    50   ~ 0
 GND
 Wire Wire Line
@@ -383,7 +383,7 @@ INPUT_UP
 Text Label 7000 4550 2    50   ~ 0
 INPUT_SELECT
 Text Label 7000 4650 2    50   ~ 0
-INPUIT_LEFT
+INPUT_LEFT
 Text Label 8100 4450 0    50   ~ 0
 INPUT_RIGHT
 Text Label 8100 4650 0    50   ~ 0
@@ -470,7 +470,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 6050 6400 6050
 Text Label 6400 6050 2    50   ~ 0
-ALT_CS
+~ALT_CS~
 Text Label 2050 3350 0    50   ~ 0
 RX
 NoConn ~ 4400 2950
