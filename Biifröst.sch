@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Biifröst Bridge"
-Date "2020-08-02"
-Rev "0"
+Date "2020-08-19"
+Rev "1"
 Comp "cmd.wtf"
 Comment1 ""
 Comment2 ""
