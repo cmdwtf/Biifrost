@@ -2,6 +2,8 @@
 A PCB bridge from Odiin to Screen
 
 ### Board Images
+<img src="https://github.com/nitz/Biifrost/blob/master/.images/r0-oshpark-0.jpg?raw=true" alt="Revision 0 Fab 0" width="200" /> <img src="https://github.com/nitz/Biifrost/blob/master/.images/r0-oshpark-1.jpg?raw=true" alt="Revision 0 Fab 1" width="200" />
+<img src="https://github.com/nitz/Biifrost/blob/master/.images/r0-oshpark-2.jpg?raw=true" alt="Revision 0 Fab 2" width="200" /> <img src="https://github.com/nitz/Biifrost/blob/master/.images/r0-oshpark-3.jpg?raw=true" alt="Revision 0 Fab 3" width="200" />
 <img src="https://github.com/nitz/Biifrost/blob/master/.images/r0-top.png?raw=true" alt="Revision 0 Top" width="200" /> <img src="https://github.com/nitz/Biifrost/blob/master/.images/r0-bottom.png?raw=true" alt="Revision 0 Bottom" width="200" />
 
 # EDA
