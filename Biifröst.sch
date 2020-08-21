@@ -473,8 +473,6 @@ Text Label 6400 6050 2    50   ~ 0
 ~ALT_CS~
 Text Label 2050 3350 0    50   ~ 0
 RX
-NoConn ~ 4400 2950
-NoConn ~ 4400 2850
 Wire Wire Line
 	4750 5900 4750 5950
 Text Label 3150 4500 0    50   ~ 0
@@ -529,36 +527,36 @@ F 3 "http://www.led-color.com/upload/201506/APA102%20LED.pdf" H 7850 5375 50  00
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 6000 1500 5700
+	1500 5650 1500 5350
 Wire Wire Line
-	1800 6000 1800 5700
+	1800 5650 1800 5350
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5F2C8299
-P 1800 5700
-F 0 "#FLG0102" H 1800 5775 50  0001 C CNN
-F 1 "PWR_FLAG" H 1850 5850 50  0000 C CNN
-F 2 "" H 1800 5700 50  0001 C CNN
-F 3 "~" H 1800 5700 50  0001 C CNN
-	1    1800 5700
+P 1800 5350
+F 0 "#FLG0102" H 1800 5425 50  0001 C CNN
+F 1 "PWR_FLAG" H 1850 5500 50  0000 C CNN
+F 2 "" H 1800 5350 50  0001 C CNN
+F 3 "~" H 1800 5350 50  0001 C CNN
+	1    1800 5350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 6000 1800 6000
-Connection ~ 1800 6000
+	2000 5650 1800 5650
+Connection ~ 1800 5650
 Wire Wire Line
-	1800 6000 1500 6000
-Text Label 2000 6000 2    50   ~ 0
+	1800 5650 1500 5650
+Text Label 2000 5650 2    50   ~ 0
 VCC
 $Comp
 L power:+3.3V #PWR0101
 U 1 1 5F2D92AD
-P 1500 5700
-F 0 "#PWR0101" H 1500 5550 50  0001 C CNN
-F 1 "+3.3V" H 1500 5850 50  0000 C CNN
-F 2 "" H 1500 5700 50  0001 C CNN
-F 3 "" H 1500 5700 50  0001 C CNN
-	1    1500 5700
+P 1500 5350
+F 0 "#PWR0101" H 1500 5200 50  0001 C CNN
+F 1 "+3.3V" H 1500 5500 50  0000 C CNN
+F 2 "" H 1500 5350 50  0001 C CNN
+F 3 "" H 1500 5350 50  0001 C CNN
+	1    1500 5350
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -613,4 +611,39 @@ Wire Notes Line
 	4000 6500 4000 5000
 Text Notes 4000 5000 0    50   ~ 0
 Debug/Test Points
+Wire Notes Line
+	1000 5750 2250 5750
+Text Notes 1050 6000 0    50   ~ 0
+Optional: \nVIN (4.5-6.4V) (IN)\nVSYS (4.4V/2A) (OUT)
+$Comp
+L Connector:Conn_01x03_Female J6
+U 1 1 5F40CEEA
+P 1550 6250
+F 0 "J6" H 1578 6276 50  0000 L CNN
+F 1 "OPT PWR *DNP*" H 1578 6185 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 1550 6250 50  0001 C CNN
+F 3 "~" H 1550 6250 50  0001 C CNN
+	1    1550 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2850 4150 2850
+Wire Wire Line
+	4400 2950 4150 2950
+Text Label 4150 2850 0    50   ~ 0
+VIN
+Text Label 4150 2950 0    50   ~ 0
+VSYS
+Wire Wire Line
+	1350 6350 1100 6350
+Text Label 1100 6350 0    50   ~ 0
+GND
+Wire Wire Line
+	1350 6150 1100 6150
+Wire Wire Line
+	1350 6250 1100 6250
+Text Label 1100 6150 0    50   ~ 0
+VIN
+Text Label 1100 6250 0    50   ~ 0
+VSYS
 $EndSCHEMATC
